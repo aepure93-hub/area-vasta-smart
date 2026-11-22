@@ -70,7 +70,7 @@ p, h1, h2, h3, blockquote { margin-top: 0; }
 .proof-grid span { color: rgba(255,255,255,.62); font-size: 12px; line-height: 1.4; }
 
 .section-heading { max-width: 850px; margin-bottom: clamp(40px,6vw,78px); }
-.section-heading h2, .contact h2, .editorial-note h2, .migration-note h2 { margin: 10px 0 0; font-size: clamp(38px,5.4vw,72px); line-height: .98; letter-spacing: -.058em; }
+.section-heading h1, .section-heading h2, .contact h2, .editorial-note h2, .migration-note h2 { margin: 10px 0 0; font-size: clamp(38px,5.4vw,72px); line-height: .98; letter-spacing: -.058em; }
 .section-heading.split { max-width: none; display: grid; grid-template-columns: 1.25fr .55fr; align-items: end; gap: 50px; }
 .section-heading.split > p { max-width: 470px; margin: 0; color: var(--muted); line-height: 1.65; }
 .intro-grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(40px,8vw,120px); }
@@ -302,7 +302,7 @@ p, h1, h2, h3, blockquote { margin-top: 0; }
   .logo-card { border-radius: 26px; }
   .logo-card img { border-radius: 14px; }
   .proof-grid p { padding: 22px 10px; }
-  .section-heading h2, .contact h2, .editorial-note h2, .migration-note h2 { font-size: 38px; }
+  .section-heading h1, .section-heading h2, .contact h2, .editorial-note h2, .migration-note h2 { font-size: 38px; }
   .pillar-card { min-height: 320px; padding: 26px; }
   .project-row { grid-template-columns: 45px 1fr; gap: 14px; padding: 24px 0; }
   .timeline li { grid-template-columns: 1fr; gap: 13px; }
